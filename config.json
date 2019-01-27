@@ -1,0 +1,23 @@
+{
+  "api_url":"https://api.github.com/teams/2882203/members",
+  "api_http_options": {
+    "method": "GET",
+    "header": ["User-Agent: PHP", "Authorization: token [MISSING]"]
+  },
+  "users":{"6260068":"tester"},
+  "group":"github-team",
+  "ssh-keys-sync": {
+    "enabled":"true",
+    "url":"https://www.github.com/leongrdic/ssh-keys-sync",
+    "version":"v1.2",
+    "config": {
+      "api_name":"github",
+      "api_url":"https://api.github.com/users/%username%/keys",
+      "api_http_options": {
+        "method": "GET",
+        "header": ["User-Agent: PHP"]
+      },
+      "keys_file": "~/.ssh/authorized_keys"
+    }
+  }
+}
